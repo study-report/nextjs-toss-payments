@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import {
   loadPaymentWidget,
   PaymentWidgetInstance,
+  ANONYMOUS,
 } from "@tosspayments/payment-widget-sdk";
-import { ANONYMOUS } from "@tosspayments/payment-widget-sdk";
 import config from "@/config";
 import { nanoid } from "nanoid";
 
